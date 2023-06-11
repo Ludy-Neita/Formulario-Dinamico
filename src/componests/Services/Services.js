@@ -50,7 +50,7 @@ export default function Services() {
 
                         <h4 className="pb-3 text-center"> Check some of my services I did</h4>
 
-                        <Row xs={1} md={3} className="g-4 mt-4"> 
+                        <Row xs={1} md={3} className="g-4 mt-4"> { /*un fila con 3 divisiones*/}
 
                             {servicesArray.map((service,index) =>(
 
