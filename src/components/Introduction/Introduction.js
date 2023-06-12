@@ -5,6 +5,7 @@ export default function Introduction() {
 
     return (
         <div className="introduction p-3 p-lg-5 met-5"> {/*pl padding left, pl, padding, p, padding botton, pb */}
+           
             Desde introduction
 
             <Container fluid>

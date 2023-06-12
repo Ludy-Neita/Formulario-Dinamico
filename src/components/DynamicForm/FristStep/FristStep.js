@@ -5,9 +5,6 @@ import "../FristStep/FristStep.css";
 import CardFruit from "./CardFruit";
 
 export const fruits = [
-
-
-
     {
         id: 1,
         icon: "🍅",
@@ -39,7 +36,7 @@ export default function FristStep() {
 
         setSelectedCard(fruit.id);
         localStorage.setItem("fruitName", fruit.name);
-        localStorage.setItem("iconFrui", fruit.icon);
+        localStorage.setItem("iconFruit", fruit.icon);
         
     }
 
