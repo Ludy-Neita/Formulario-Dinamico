@@ -1,6 +1,6 @@
 import { Card, Col } from "react-bootstrap"
-import "../CardService/CardService.css"
-import Services from "../Services";
+import "./CardService.css"
+//import Services from "../Services";
 
 export default function CardService({ service }) {
 
@@ -10,7 +10,7 @@ export default function CardService({ service }) {
     return (
 
         <div>
-            Desde card Service
+            Desde card Service que esta dentro de la carpeta de Services
 
             <Col className="container-card-service">
 

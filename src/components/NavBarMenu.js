@@ -21,7 +21,7 @@ export default function NavBarMenu() {
                         <Navbar.Text>
                             Signed in as:{" "}
                             <a href="https://gmail.com" target="_blank" rel="noreferrer">
-                                Iván Devia
+                                Ludy Neita
                             </a>
                         </Navbar.Text>
 

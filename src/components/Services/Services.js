@@ -1,9 +1,9 @@
 import { Container, Row, Col } from "react-bootstrap";
-import "../Services/Services.css";
+import "./Services.css";
 import imgCourse1 from "../../assets/img/hbo.jpeg";
 import imgCourse2 from "../../assets/img/netflix.jpeg";
 import imgCourse3 from "../../assets/img/prime.jpeg";
-import CardService from "../Services/CardService/CardService"
+import CardService from "./CardService/CardService"
 
 export default function Services() {
 
@@ -44,13 +44,13 @@ export default function Services() {
 
                 <Container fluid>
 
-                    <Col xs={12} md={8}>
+                    <Col xs={12} md={8}> {/* 12 separaciones, 12 x 8 cuadriculas, es para un responsive, table, cel, pc */}
 
                         <h2 className="text-center">Services</h2>
 
                         <h4 className="pb-3 text-center"> Check some of my services I did</h4>
 
-                        <Row xs={1} md={3} className="g-4 mt-4"> { /*un fila con 3 divisiones*/}
+                        <Row xs={1} md={3} className="g-4 mt-4"> { /*un fila con 3 divisiones, que son las 3 posiciones del array*/}
 
                             {servicesArray.map((service,index) =>(
 

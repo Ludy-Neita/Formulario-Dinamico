@@ -1,7 +1,8 @@
-import { Button, Badge } from 'react-bootstrap';
-import Introduction from './componests/Introduction/Introduction';
-import NavBarMenu from './componests/NavBarMenu';
-import Services from './componests/Services/Services';
+//import { Button, Badge } from 'react-bootstrap';
+import Introduction from './components/Introduction/Introduction';
+import NavBarMenu from './components/NavBarMenu';
+import Services from './components/Services/Services';
+import DynamicForm from './components/DynamicForm/DynamicForm';
 
 function App() {
 
@@ -12,6 +13,8 @@ function App() {
       <NavBarMenu />
       <Introduction />
       <Services />
+      <DynamicForm />
+      
 
     </div>
   );
