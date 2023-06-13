@@ -41,7 +41,7 @@ export default function Resume({showModal, setModal, setStep}) { // ThirdStep
                     <h4>Este es su resumen:</h4>
 
                     <CardGroup className="mt-4">
-                        {favouriteFruit && fruitIcon && ( // mostrar los dos y entonces..
+                        {favouriteFruit && fruitIcon && ( // mostrar los dos el nombre y el icono, si viene vacio solo muestra lo que selecciono, ya sea fruta, hobbie o el comentario
                             <CardResume
                                 title={fruitIcon}
                                 subtitle="Su fruta favorita es:"
