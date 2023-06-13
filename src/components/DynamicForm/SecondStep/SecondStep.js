@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Col, Container, Row, Form } from "react-bootstrap";
-import Select from 'react-select/dist/declarations/src/Select';
+import Select from "react-select";
 
 
 const options = [
